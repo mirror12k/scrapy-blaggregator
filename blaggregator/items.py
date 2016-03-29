@@ -8,7 +8,7 @@
 import scrapy
 
 
-class BlaggregatorItem(scrapy.Item):
+class RSSLinkItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    domain = scrapy.Field()
+    link = scrapy.Field()

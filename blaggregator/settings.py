@@ -14,6 +14,8 @@ BOT_NAME = 'blaggregator'
 SPIDER_MODULES = ['blaggregator.spiders']
 NEWSPIDER_MODULE = 'blaggregator.spiders'
 
+LOG_LEVEL = 'INFO'
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'blaggregator (+http://www.yourdomain.com)'
