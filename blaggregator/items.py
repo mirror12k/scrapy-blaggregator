@@ -12,3 +12,4 @@ class RSSLinkItem(scrapy.Item):
     # define the fields for your item here like:
     domain = scrapy.Field()
     link = scrapy.Field()
+    keywords = scrapy.Field()

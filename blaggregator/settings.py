@@ -14,11 +14,12 @@ BOT_NAME = 'blaggregator'
 SPIDER_MODULES = ['blaggregator.spiders']
 NEWSPIDER_MODULE = 'blaggregator.spiders'
 
-LOG_LEVEL = 'INFO'
+LOG_LEVEL = 'INFO' # don't need all that debug info
 
 
-# Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'blaggregator (+http://www.yourdomain.com)'
+USER_AGENT = '' # websites seem to like this better
+
+DOWNLOAD_MAXSIZE = 33554432
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS=32
