@@ -19,7 +19,8 @@ LOG_LEVEL = 'INFO' # don't need all that debug info
 
 USER_AGENT = '' # websites seem to like this better
 
-DOWNLOAD_MAXSIZE = 33554432
+# 8 megabytes maximum download
+DOWNLOAD_MAXSIZE = 33554432 / 4
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS=32
