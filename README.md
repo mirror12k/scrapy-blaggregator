@@ -1,0 +1,2 @@
+# blaggregator
+A scrapy-based scraper which attempts to answer the question of "what other blogs are out there?", but on a more massive scale. The blaggregator spider finds websites containing specific keywords and adding their rss feed to the output if they have one. Then it finds links to other sites and performs the same analysis on them. Terrifically simple, but with good fine tuning, it was able to find a good list of obscure security blogs for me to read for a while
